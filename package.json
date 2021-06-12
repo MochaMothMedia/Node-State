@@ -1,0 +1,12 @@
+{
+	"name": "com.fedoradev.nodestate",
+	"displayName": "Node State",
+	"version": "1.0.0",
+	"unity": "2020.3",
+	"unityRelease": "2f1",
+	"description": "State machine using Siccity's xNode system.",
+	"author": {
+		"name": "Fedora Dev",
+		"email": "fedora.game.dev@gmail.com"
+	}
+}
