@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using XNode;
 
-public class StartState : MonoBehaviour
+namespace FedoraDev.NodeState.Implementations
 {
-    // Start is called before the first frame update
-    void Start()
+    [CreateNodeMenu("Start State")]
+    public class StartState : BaseState, IState
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [Output, SerializeField] string _nextNode;
     }
 }

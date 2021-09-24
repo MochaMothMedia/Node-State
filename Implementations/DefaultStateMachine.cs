@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using XNode;
 
-public class DefaultStateMachine : MonoBehaviour
+namespace FedoraDev.NodeState.Implementations
 {
-    // Start is called before the first frame update
-    void Start()
+    [CreateAssetMenu(fileName = "New State Graph", menuName = "State Machine Graph")]
+    public class DefaultStateMachine : NodeGraph, IStateMachine
     {
-        
-    }
+        public IState CurrentState { get; private set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void GoToState(IState targetState)
+		{
+            //
+		}
     }
 }

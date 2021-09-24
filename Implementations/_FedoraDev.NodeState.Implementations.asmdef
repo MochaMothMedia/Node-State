@@ -1,3 +1,17 @@
 {
-	"name": "_FedoraDev.NodeState.Implementations"
+    "name": "_FedoraDev.NodeState.Implementations",
+    "rootNamespace": "FedoraDev.NodeState.Implementations",
+    "references": [
+        "GUID:5d74618523c02a348acf5dbd8678624c",
+        "GUID:b8e24fd1eb19b4226afebb2810e3c19b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
