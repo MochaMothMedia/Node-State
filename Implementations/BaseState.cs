@@ -1,6 +1,6 @@
 using XNode;
 
-namespace FedoraDev.NodeState.Implementations
+namespace MochaMoth.NodeState.Implementations
 {
     public abstract class BaseState : Node, IState
     {

@@ -1,7 +1,7 @@
 using UnityEngine;
 using XNode;
 
-namespace FedoraDev.NodeState.Implementations
+namespace MochaMoth.NodeState.Implementations
 {
     [CreateNodeMenu("Start State")]
     public class StartState : BaseState, IState

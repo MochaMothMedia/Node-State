@@ -1,4 +1,4 @@
-namespace FedoraDev.NodeState
+namespace MochaMoth.NodeState
 {
     public interface IStateMachine
     {

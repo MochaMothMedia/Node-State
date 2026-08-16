@@ -1,7 +1,7 @@
 using UnityEngine;
 using XNode;
 
-namespace FedoraDev.NodeState.Implementations
+namespace MochaMoth.NodeState.Implementations
 {
     [CreateAssetMenu(fileName = "New State Graph", menuName = "State Machine Graph")]
     public class DefaultStateMachine : NodeGraph, IStateMachine
